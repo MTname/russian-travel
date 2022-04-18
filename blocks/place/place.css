@@ -24,7 +24,7 @@
         padding: 0 24px 73px;
     }
 
-    .place:nth-of-type(5) {    
+    .place:last-of-type {    
         padding-bottom: 90px;
     }
 }
@@ -36,19 +36,18 @@
         padding: 0 24px 60px;
     }
 
-    .place:nth-of-type(5) {    
+    .place:last-of-type {    
         padding-bottom: 70px;
     }
 }
 
 @media screen and (max-width: 568px) {
     .place {
-        grid-template-columns: 1fr;
         gap: 32px;
-        padding: 0 16px 50px;
+        padding: 0 0 50px;
     }
-
-    .place:nth-of-type(5) {    
+    
+    .place:last-of-type {    
         padding-bottom: 66px;
     }
 }

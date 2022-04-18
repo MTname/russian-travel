@@ -7,7 +7,6 @@
 
 @media screen and (max-width: 714px) {
     .footer__copyright {
-        font-size: 14px;
         line-height: 1; /* 14px; identical to box height, or 100% */
     }
 }

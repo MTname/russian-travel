@@ -18,5 +18,6 @@
     .place__title {
         font-size: 32px;
         line-height: 1.09; /* 35px; or 109% */
+        padding: 0 16px;
     }
 }

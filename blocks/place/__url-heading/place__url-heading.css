@@ -8,3 +8,9 @@
     margin: 0 0 12px;
     color: #AAAAAA;
 }
+
+@media screen and (max-width: 568px) {
+    .place__url-heading {
+        padding: 0 16px;
+    }
+}

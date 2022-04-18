@@ -3,12 +3,20 @@
     padding: 0;
 }
 
-.place__paragraph:nth-child(2) {
+.place__paragraph:last-child {
     margin: 26px 0 0;
 }
 
+.place__paragraph:first-child {
+    margin: 0;
+}
+
 @media screen and (max-width: 984px) {
-    .place__paragraph:nth-child(2) {
+    .place__paragraph:last-child {
         margin: 25px 0 0;
+    }
+
+    .place__paragraph:first-child {
+        margin: 0;
     }
 }
